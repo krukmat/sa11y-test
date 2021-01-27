@@ -1,0 +1,18 @@
+<!--
+  @description       : 
+  @author            : Matias Kruk
+  @group             : 
+  @last modified on  : 01-27-2021
+  @last modified by  : Matias Kruk
+  Modifications Log 
+  Ver   Date         Author        Modification
+  1.0   01-27-2021   Matias Kruk   Initial Version
+-->
+<template>
+    <button type="button" onclick={toggleDetails} style={buttonStyle}>
+      Click Me!
+    </button>
+    <template if:true={areDetailsVisible}>
+      <p>These are the details!</p>
+    </template>
+  </template>

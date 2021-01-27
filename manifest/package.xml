@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>AccountService</members>
+		<members>AccountServiceTest</members>
+		<members>CalloutController</members>
+		<members>CalloutControllerTest</members>
+		<members>OpportunityAlertController</members>
+		<members>OpportunityAlertControllerTest</members>
+		<name>ApexClass</name>
+	</types>
+	<version>50.0</version>
+</Package>
